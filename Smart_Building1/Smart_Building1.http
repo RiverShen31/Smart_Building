@@ -1,0 +1,6 @@
+@Smart_Building1_HostAddress = http://localhost:5165
+
+GET {{Smart_Building1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
