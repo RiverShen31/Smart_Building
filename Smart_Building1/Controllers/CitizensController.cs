@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Smart_Building1.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using Smart_Building1.Model;
 using Smart_Building1.Services.Interface;
 
@@ -29,11 +26,6 @@ namespace Smart_Building1.Controllers
         public async Task<ActionResult<Citizen>> GetCitizen(int id)
         {
             var citizen = await _citizenService.GetCitizenByIdAsync(id);
-
-            if (citizen == null)
-            {
-                return NotFound();
-            }
 
             return Ok(citizen);
         }

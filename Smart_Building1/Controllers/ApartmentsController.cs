@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Smart_Building1.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using Smart_Building1.Model;
 using Smart_Building1.Repository.Interface;
 using Smart_Building1.Services.Interface;

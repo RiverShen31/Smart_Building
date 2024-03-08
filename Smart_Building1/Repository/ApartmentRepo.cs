@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Smart_Building1.Data;
+﻿using Smart_Building1.Data;
 using Smart_Building1.Model;
 using Smart_Building1.Repository.Interface;
 

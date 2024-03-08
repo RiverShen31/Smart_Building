@@ -24,7 +24,7 @@ namespace Smart_Building1.Services
 
         public async Task DeleteApartmentAsync(int id)
         {
-            await _apartmentRepo.RemoveAsync(_apartmentRepo.GetApartment(id)!);
+            await _apartmentRepo.RemoveAsync(_apartmentRepo.GetApartment(id));
         }
     }
 }

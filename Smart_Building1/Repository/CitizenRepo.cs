@@ -21,7 +21,7 @@ namespace Smart_Building1.Repository
 
         public async Task<Citizen> GetCitizenByIdAsync(int id)
         {
-            return await _context.Citizens.FindAsync(id);
+            return (await _context.Citizens.FindAsync(id))!;
         }
 
         public async Task AddCitizenAsync(Citizen citizen)
