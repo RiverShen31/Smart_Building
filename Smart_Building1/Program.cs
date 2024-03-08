@@ -21,6 +21,9 @@ builder.Services.AddScoped<IApartmentRepo, ApartmentRepo>();
 builder.Services.AddScoped<ICitizenService, CitizenService>();
 builder.Services.AddScoped<ICitizenRepo, CitizenRepo>();
 
+builder.Services.AddScoped<IBuildingService, BuildingService>();
+builder.Services.AddScoped<IBuildingRepo, BuildingRepo>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
