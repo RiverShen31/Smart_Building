@@ -6,7 +6,7 @@ namespace Smart_Building1.Model
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<CitizenApartment> CitizenApartments { get; set; }
+        public string? Name { get; set; }
+        public ICollection<CitizenApartment>? CitizenApartments { get; set; }
     }
 }
